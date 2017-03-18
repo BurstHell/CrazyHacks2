@@ -1,0 +1,98 @@
+﻿<Window x:Class="CrazyHacks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:CrazyHacks"
+        xmlns:view="clr-namespace:CrazyHacks.View"
+        xmlns:viewModel="clr-namespace:CrazyHacks.ViewModel"
+        mc:Ignorable="d"
+        DataContext="{Binding Path=Main, Source={StaticResource Locator}}"
+        Title="CrazyHacks" Height="600" Width="800">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top">
+            <Menu>
+                <MenuItem Header="_File">
+                    <MenuItem Header="_New Projects" />
+                    <MenuItem Header="_Save Projects" />
+                    <Separator />
+                    <MenuItem Header="_Add Data(Burps)" />
+                    <MenuItem Header="_Add Data(Fiddler)" />
+                    <Separator />
+                    <MenuItem Header="E_xit" />
+                </MenuItem>
+                <MenuItem Header="_Edit">
+                    <MenuItem Header="Undo" Command="Undo"/>
+                    <Separator />
+                    <MenuItem Header="Cut" Command="Cut" />
+                    <MenuItem Header="Copy" Command="Copy" />
+                    <MenuItem Header="Paste" Command="Paste" />
+                </MenuItem>
+                <MenuItem Header="_Settings">
+                    <MenuItem Header="Preferences" Command="Undo" />
+                    <Separator />
+                    <MenuItem Header="Helps" Command="Undo" />
+                </MenuItem>
+            </Menu>
+            <ToolBar>
+                <!-- Fiddler Command 설정 후 교체-->
+                <Button Command="{Binding StartCaptureCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="15" Source="/Resource/Icon/Record.png"/>
+                        <TextBlock Text="Start"/>
+                    </StackPanel>
+                </Button>
+                <Button  Command="{Binding StopCaptureCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="15" Source="/Resource/Icon/Stop.png"/>
+                        <TextBlock Text="Stop"/>
+                    </StackPanel>
+                </Button>
+                <Button Command="{Binding InstallCertCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="15" Source="/Resource/Icon/install.png"/>
+                        <TextBlock Text="Cert Install"/>
+                    </StackPanel>
+                </Button>
+                <Button Command="{Binding UninstallCertCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="15" Source="/Resource/Icon/install.png"/>
+                        <TextBlock Text="Cert Uninstall"/>
+                    </StackPanel>
+                </Button>
+                <Button Command="{Binding ClearCache}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="15" Source="/Resource/Icon/install.png"/>
+                        <TextBlock Text="Clear Cache"/>
+                    </StackPanel>
+                </Button>
+                <Label Content="Domain:"/>
+                <TextBox Width="120" Text="{Binding FilterDomain}" IsEnabled="{Binding Path=IsFilterDomainEnabeld}"/>
+            </ToolBar>
+            <!-- 툴바 추가
+                <ToolBar>
+                    <Button Command="Cut" Content="Cut" />
+                    <Button Command="Copy" Content="Copy" />
+                    <Button Command="Paste" Content="Paste" />
+                </ToolBar>
+                -->
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Bottom">
+            <StatusBar></StatusBar>
+        </StackPanel>
+        <Grid>
+            <TabControl>
+                <TabItem Header="Main">
+                    <view:MainControlView x:Name = "MainControlView"/>
+                </TabItem>
+                <TabItem Header="XSS Control">
+                    <view:XssControlView x:Name = "XssControlView"/>
+                </TabItem>
+                <TabItem Header="Chrome">
+                    <view:ChromeControlView x:Name = "ChromeView"/>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,12 @@
+c:\users\gbkim\documents\visual studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\Debug\StringManipulationTest.exe.config
+c:\users\gbkim\documents\visual studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\Debug\StringManipulationTest.exe
+c:\users\gbkim\documents\visual studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\Debug\StringManipulationTest.pdb
+c:\users\gbkim\documents\visual studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\Debug\StringManipulationTest.csprojResolveAssemblyReference.cache
+c:\users\gbkim\documents\visual studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\Debug\StringManipulationTest.exe
+c:\users\gbkim\documents\visual studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\Debug\StringManipulationTest.pdb
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\Debug\StringManipulationTest.exe.config
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\Debug\StringManipulationTest.exe
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\Debug\StringManipulationTest.pdb
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\Debug\StringManipulationTest.csprojResolveAssemblyReference.cache
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\Debug\StringManipulationTest.exe
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\Debug\StringManipulationTest.pdb

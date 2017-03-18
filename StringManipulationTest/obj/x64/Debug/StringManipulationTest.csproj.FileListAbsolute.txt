@@ -1,0 +1,12 @@
+C:\Users\gbkim\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\x64\Debug\StringManipulationTest.exe.config
+C:\Users\gbkim\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\x64\Debug\StringManipulationTest.exe
+C:\Users\gbkim\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\x64\Debug\StringManipulationTest.pdb
+C:\Users\gbkim\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\x64\Debug\StringManipulationTest.exe
+C:\Users\gbkim\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\x64\Debug\StringManipulationTest.pdb
+C:\Users\gbkim\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\x64\Debug\StringManipulationTest.csprojResolveAssemblyReference.cache
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\x64\Debug\StringManipulationTest.exe.config
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\x64\Debug\StringManipulationTest.exe
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\bin\x64\Debug\StringManipulationTest.pdb
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\x64\Debug\StringManipulationTest.exe
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\x64\Debug\StringManipulationTest.pdb
+C:\Users\YES24\Documents\Visual Studio 2015\Projects\CrazyHacks\StringManipulationTest\obj\x64\Debug\StringManipulationTest.csprojResolveAssemblyReference.cache
